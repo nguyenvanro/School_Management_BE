@@ -58,7 +58,7 @@ python manage.py runserver
 ```
 - production
 ```bash
-gunicorn core_app.wsgi:application --bind 0.0.0.0:8000
+gunicorn school_app.wsgi:application --bind 0.0.0.0:8000
 ```
 - docker
 ```bash
