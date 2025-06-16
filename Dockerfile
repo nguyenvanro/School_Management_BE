@@ -21,4 +21,4 @@ RUN pip install --upgrade pip && pip install -r requirements.txt
 COPY . .
 
 # run production server
-CMD ["gunicorn", "core_app.wsgi:application", "--bind", "0.0.0.0:8000"]
+CMD ["gunicorn", "school_app.wsgi:application", "--bind", "0.0.0.0:8000"]
